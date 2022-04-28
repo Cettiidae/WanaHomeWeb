@@ -2,7 +2,7 @@
     <div style="max-width: 90%;width: fit-content;">
         <b-row align-h="between" cols="2">
             <b-col md="auto">
-                <p>此处应有标题</p>
+                <p style="font-size: larger; font-weight: bold;">欢迎访问 I Wana Home 查房记录网页</p>
             </b-col>
             <b-col class="text-right" md="auto">
                 <b-btn size="sm" variant="outline-info" @click="update()">
@@ -12,7 +12,7 @@
         </b-row>
         <b-row cols="1" cols-md="2">
             <b-col class="text-center">
-                此处应有文字
+                <iframe src="https://iinformation.info/board/home.html" style="width: 100%; height: 100%; border: transparent; box-shadow: rgba(0, 0, 0, 0.275) 0px 0.125rem 0.25rem !important; border-radius: 0.25rem !important;"></iframe>
             </b-col>
             <b-col>
                 <b-col v-for="dc in dc_server" :key="dc.dc_name" class="shadow-sm rounded m-2 p-2">
