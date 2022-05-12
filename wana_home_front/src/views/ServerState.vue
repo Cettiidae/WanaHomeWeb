@@ -75,7 +75,7 @@ export default class ServerState extends Vue {
         },
         {
             key: 'price',
-            class: "d-none d-sm-block",
+            //class: "d-none d-sm-block",
             label: "价钱",
             sortable: true
         },
