@@ -17,7 +17,7 @@ export const territories: { [k: number]: { full: string, short: string } } = {
     341: {full: "高脚孤丘", short: "沙"},
     340: {full: "薰衣草苗园", short: "森"},
     641: {full: "白银乡", short: "白"},
-    979: {full: "雪景房", short: "雪"},
+    979: {full: "穹顶皓天", short: "天"},
 }
 export const ward_cnt = 24
 export const house_cnt = 60
@@ -68,7 +68,7 @@ export const dc_server = [
             1192: "水晶塔",
             1180: "太阳海岸",
             1186: "伊修加德",
-            1193: "红茶川"
+            1201: "红茶川"
         }
     },
 ]
@@ -101,6 +101,7 @@ export const servers: { [key: number]: string } = {
     1192: "水晶塔",
     1180: "太阳海岸",
     1186: "伊修加德",
+	1201: "红茶川",
 }
 
 export function house_size(size_id: number) {
